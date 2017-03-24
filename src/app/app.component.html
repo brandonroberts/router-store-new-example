@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<a routerLink="/">Home</a> | <a routerLink="/away">Away</a>
+
+<br><br>
+
+{{ url | async }}
+
+<br><br>
+
+<router-outlet></router-outlet>
